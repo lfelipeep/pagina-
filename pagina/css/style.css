@@ -1,0 +1,57 @@
+html{
+    font-size: 20px;
+    font: oblique bold 120% cursive;
+    color: aliceblue;
+}
+
+p{
+    font: small-caps 100%/200% serif;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+body {
+     width: 600px;     
+     margin: 0 auto;     
+     padding: 0 20px 20px 20px ;  
+        height: 100vh;
+        background: linear-gradient(45deg, #550555, #f1078f, #8400ff, #780483);
+        background-size: 400% 400%;
+        animation: gradientAnimation 10s ease infinite;
+      }
+      
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      img{
+        width: 400px;
+        height: 400px;
+
+      }
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+} 
+
+.nose{
+    color: rgb(255, 255, 255);
+
+}
+
+.m {
+    color: black;
+}
